@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  background-color: #000;
+  align-items: center;
+  padding: 20px 10px;
+  min-height: 60px;
+}
+
+.navbar a {
+  color: #fff;
+  transition: 0.3s;
+  margin-right: 1rem;
+}
+
+.navbar a:hover {
+  color: #999;
+}

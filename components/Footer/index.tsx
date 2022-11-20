@@ -1,7 +1,9 @@
+import styles from '../../styles/components/Footer.module.css'
+
 export default function Footer() {
   return (
-    <>
+    <footer className={styles.footer}>
       <p>Curso de Next Js &copy; 2022</p>
-    </>
+    </ footer>
   )
 }
