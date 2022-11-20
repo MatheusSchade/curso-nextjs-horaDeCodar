@@ -21,6 +21,11 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
+          <Link legacyBehavior href={`/todos`}>
+            <a>ToDos</a>
+          </Link>
+        </li>
+        <li>
           <Link legacyBehavior href={`/contact`}>
             <a>Contato</a>
           </Link>
